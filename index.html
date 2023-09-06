@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M O C H I</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="flex bg-pink-200 pt-7 items-center justify-between">
+        <div class="text-black text-xl font-extrabold pl-9 pb-7">
+          <h1>@d!B@$</h1>
+        </div>
+        <ul class="text-white pb-7 text-center flex justify-around">
+          <li class="list-none"><a href="" class="px-2">Home</a></li>
+          <li class="list-none hidden sm:block">
+            <a href="" class="px-2">About</a>
+          </li>
+          <li></li>
+          <li class="list-none"><a href="" class="px-2">Contact</a></li>
+          <li class="list-none hidden md:block">
+            <a href="" class="px-2">Careers</a>
+          </li>
+        </ul>
+
+        <div class="flex">
+          <button class="text-white mr-10 mb-7">
+            <a href="Login.html">Login</a>
+          </button>
+          <img src="./Images/home4.png" class="mr-8 mb-7" />
+        </div>
+      </nav>
+    </header>
+    <div class="bg-pink-800 m-0 rounded-xl p-3">
+      <ul class="flex text-center justify-around font-semibold">
+        <li class="text-white"><a href="">Sigma</a></li>
+        <li class="text-white"><a href="">Girls</a></li>
+        <li class="text-white"><a href="">Kiddo</a></li>
+        <li class="text-white"><a href="">OldChads</a></li>
+        <li class="text-white"><a href="">Premium</a></li>
+      </ul>
+    </div>
+    <div class="container mx-auto py-8">
+        <div class="max-w-md mx-auto bg-white p-4 rounded-lg shadow-md">
+            <div class="flex items-center border border-gray-300 rounded-lg">
+                <input
+                    type="text"
+                    id="search-bar"
+                    placeholder="Search..."
+                    class="w-full p-2 outline-none"
+                />
+                <button
+                    onclick="clicked()"
+                    id="searchButton"
+                    class="bg-pink-400 text-white p-2 rounded-lg hover:bg-pink-500 focus:outline-none"
+                >
+                    Search
+                </button>
+            </div>
+        </div>
+    </div>
+    <div
+    id="search"
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-6 xl:grid-cols-6 gap-4 pt-8 pl-7 pr-7">
+</div>
+<div class="laksh">
+    <!-- banner starts -->
+    <div class="p-10 relative">
+      <img src="./Images/home4.png" />
+      <div
+        class="absolute top-20 left-20 text-white pt-6 font-extrabold text-xs xl:text-4xl lg:text-3xl md:text-2xl sm:text-xs"
+      >
+        <p>Step into Style: Your Soles, Your Statements</p>
+        <div class="font-semibold pt-5">
+          <button
+            class="border border-white text-white hover:bg-pink-500 hover:text-black py-2 px-4 rounded-2xl hover:animate-bounce"
+          >
+            <a href="">Shop now</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- banner ends -->
+    <hr class="border-t border-gray-900 my-7 mx-10" />
+    <!-- top picks start -->
+    <div class="pl-10 font-extrabold text-3xl">
+      <p>Atheletes Pick</p>
+    </div>
+
+    <div class="container mx-auto">
+      <div
+        id="daksh"
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-6 xl:grid-cols-6 gap-4 pt-8 pl-7 pr-7"
+      >
+        <!-- <div class="bg-pink-600">
+            <img src="./Images/cr7.jpg" alt="Image 1" class="w-full h-auto">
+            <div class="flex flex-col items-center justify-center pt-2">
+                <p class="font-bold">CR 7 Siuuuu</p>
+                <button class="bg-black text-white rounded-lg px-3 py-1"><a>Buy now</a></button>
+            </div>
+        </div>
+        <div  class="bg-pink-600">
+            <img src="./Images/LM.jpg" alt="Image 2" class="w-full h-auto">
+            <div class="flex flex-col items-center justify-center">
+            <p class="font-bold">Reboki </p>
+            <button class="bg-black text-white rounded-lg px-3 py-1"><a>Buy now</a></button>
+            </div>
+        </div>
+        <div  class="bg-pink-600">
+            <img src="./Images/zidane.jpg" alt="Image 3" class="w-full h-auto">
+            <div class="flex flex-col items-center justify-center pb-3">
+            <p class="font-bold">Adibas</p>
+            <button class="bg-black text-white rounded-lg px-3 py-1"><a>Buy now</a></button>
+            </div>
+        </div>
+        <div  class="bg-pink-600">
+            <img src="./Images/chettri.jpg" alt="Image 3" class="w-full h-auto">
+            <div class="flex flex-col items-center justify-center">
+            <p class="font-bold">Chettri speed</p>
+            <button class="bg-black text-white rounded-lg px-3 py-1"><a>Buy now</a></button>
+            </div>
+        </div>
+        <div  class="bg-pink-600">
+            <img src="./Images/s6.jpg" alt="Image 5" class="w-full h-auto">
+            <div class="flex flex-col items-center justify-center pt-2">
+            <p class="font-bold">FF Blast</p>
+            <button class="bg-black text-white rounded-lg px-3 py-1"><a>Buy now</a></button>
+            </div>
+        </div>
+        <div  class="bg-pink-600">
+            <img src="Images/image2.jpg" alt="Image 5" class="w-full h-auto">
+            <div class="flex flex-col items-center justify-center pt-2">
+            <p class="font-bold">Skechers</p>
+            <button class="bg-black text-white rounded-lg px-3 py-1"><a>Get Now</a></button>
+            </div>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- Atheletes Pick-->
+    <hr class="border-t border-gray-900 my-10 mx-10" />
+    <!-- Atheletes review -->
+    <div class="mx-8 mt-7">
+      <h2 class="font-extrabold text-3xl mb-7">Reviews Matter</h2>
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4"
+      >
+        <!-- Review 1 -->
+        <div class="bg-white shadow-sm p-4">
+          <h3 class="text-xl font-semibold mb-2">Zidane</h3>
+          <h4>4.3</h4>
+          <p>The selection was fantastic.</p>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="bg-white shadow-sm p-4">
+          <h3 class="text-xl font-semibold mb-2">CR7</h3>
+          <h4>5.0</h4>
+          <p>Speedy delivery,Quality Unique designs, Best prices..</p>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="bg-white shadow-smp-4">
+          <h3 class="text-xl font-semibold mb-2">Leo Messi</h3>
+          <h4>3.1</h4>
+          <p>
+            Unique boots, good quality, but pricey. On-time delivery. Sneaker
+            variety is impressive, smooth checkout. Limited stock.
+          </p>
+        </div>
+
+        <div class="bg-white shadow-sm p-4">
+          <h3 class="text-xl font-semibold mb-2">Sunil Chettri</h3>
+          <h4>4.2</h4>
+          <p>
+            Fast delivery, stylish sneakers, and superb service. Sizing can be
+            tricky. Unique boots, on-time delivery, but no free returns.
+          </p>
+        </div>
+        <!-- Add more reviews as needed -->
+      </div>
+    </div>
+    <!-- customer review section endds -->
+</div>
+    <script src="script.js"></script>
+  </body>
+
+  <footer class="bg-Pink-800 text-white mt-10 p-4 px-10">
+    <div class="container mx-auto">
+      <div class="flex justify-between items-center">
+        <p class="text-2xl font-bold pb-4">M O C H I</p>
+        <ul class="flex space-x-4">
+          <img
+            width="24"
+            height="24"
+            src="https://img.icons8.com/ios/24/instagram-new--v1.png"
+            alt="instagram-new--v1"
+          />
+
+          <img
+            width="24"
+            height="24"
+            src="https://img.icons8.com/ios/50/twitter--v1.png"
+            alt="twitter--v1"
+          />
+
+          <img
+            width="24"
+            height="24"
+            src="https://img.icons8.com/glyph-neue/24/youtube-play.png"
+            alt="youtube-play"
+          />
+
+          <img
+            width="24"
+            height="24"
+            src="https://img.icons8.com/ios-glyphs/24/share--v1.png"
+            alt="share--v1"
+          />
+        </ul>
+      </div>
+      <div>
+        <ul class="flex justify-between items-center">
+          <li>No Returns</li>
+          <li>Contact us</li>
+          <li>Shipping policy</li>
+          <li>Privacy policy</li>
+        </ul>
+      </div>
+      <div class="pt-4 flex flex-col items-center justify-center text-black">
+        <p>Copyright &copy; Mochi All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+</html>
